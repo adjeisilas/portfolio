@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+@media (hover: hover) and (pointer: fine) {
+  body, a, button {
+    cursor: none !important;
+  }
+}
