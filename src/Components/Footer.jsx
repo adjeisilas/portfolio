@@ -69,8 +69,12 @@ const Footer = () => {
           <div className="space-y-4">
             <h4 className="text-zinc-500 uppercase text-xs tracking-widest">Socials</h4>
             <div className="flex gap-4">
-              <Github className="w-5 h-5 text-zinc-400 hover:text-white cursor-pointer transition-colors" />
+              <a href="https://adjeisilas.github.io" target="_blank" rel="noreferrer">
+              <Github className="w-5 h-5 text-zinc-400 hover:text-white transition-colors" />
+            </a>
+            <a href="https://www.linkedin.com/in/adjei-silas-03a02b01c00/" target="_blank" rel="noreferrer">
               <Linkedin className="w-5 h-5 text-zinc-400 hover:text-white cursor-pointer transition-colors" />
+            </a>
             </div>
           </div>
 

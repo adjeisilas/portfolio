@@ -40,7 +40,7 @@ const Navbar = () => {
 
           {/* Right Side Actions (Desktop) */}
           <div className="hidden md:flex items-center gap-4">
-            <a href="https://github.com" target="_blank" rel="noreferrer">
+            <a href="https://adjeisilas.github.io" target="_blank" rel="noreferrer">
               <Github className="w-5 h-5 text-zinc-400 hover:text-white transition-colors" />
             </a>
             <button className="text-xs bg-white text-black px-4 py-2 rounded-full font-bold hover:bg-zinc-200 transition-all">
