@@ -1,36 +1,36 @@
-import { useState } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
-import { Menu, X, Github } from 'lucide-react';
+import { useState } from "react";
+import { motion, AnimatePresence } from "framer-motion";
+import { Menu, X, Github } from "lucide-react";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const navLinks = [
-    { name: 'About', href: '#about' },
-    { name: 'Projects', href: '#projects' },
-    { name: 'Contact', href: '#contact' },
+    { name: "About", href: "#about" },
+    { name: "Projects", href: "#projects" },
+    { name: "Contact", href: "#contact" },
   ];
 
   return (
     <nav className="fixed top-0 w-full z-[100] px-6 py-4">
       <div className="max-w-7xl mx-auto flex justify-center">
         {/* Desktop & Mobile Container */}
-        <motion.div 
+        <motion.div
           initial={{ y: -100 }}
           animate={{ y: 0 }}
           className="flex items-center justify-between w-full md:w-auto md:gap-12 px-6 py-3 bg-zinc-900/70 backdrop-blur-xl border border-zinc-800 rounded-2xl md:rounded-full"
         >
           {/* Logo */}
           <span className="font-bold text-xl bg-gradient-to-r from-blue-400 to-emerald-400 bg-clip-text text-transparent cursor-pointer">
-            MR. TRAVIZ
+            ADJEI TECH
           </span>
-          
+
           {/* Desktop Links */}
           <div className="hidden md:flex gap-8 text-sm font-medium text-zinc-400">
             {navLinks.map((link) => (
-              <a 
-                key={link.name} 
-                href={link.href} 
+              <a
+                key={link.name}
+                href={link.href}
                 className="hover:text-white transition-colors"
               >
                 {link.name}
@@ -49,7 +49,7 @@ const Navbar = () => {
           </div>
 
           {/* Mobile Menu Toggle */}
-          <button 
+          <button
             className="md:hidden p-1 text-zinc-400 hover:text-white"
             onClick={() => setIsOpen(!isOpen)}
           >
@@ -69,9 +69,9 @@ const Navbar = () => {
           >
             <div className="flex flex-col gap-6 text-center">
               {navLinks.map((link) => (
-                <a 
-                  key={link.name} 
-                  href={link.href} 
+                <a
+                  key={link.name}
+                  href={link.href}
                   onClick={() => setIsOpen(false)}
                   className="text-lg font-medium text-zinc-300 hover:text-blue-400 transition-colors"
                 >

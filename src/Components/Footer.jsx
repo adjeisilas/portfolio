@@ -70,9 +70,7 @@ const Footer = () => {
             <h4 className="text-zinc-500 uppercase text-xs tracking-widest">Socials</h4>
             <div className="flex gap-4">
               <Github className="w-5 h-5 text-zinc-400 hover:text-white cursor-pointer transition-colors" />
-              <Twitter className="w-5 h-5 text-zinc-400 hover:text-white cursor-pointer transition-colors" />
               <Linkedin className="w-5 h-5 text-zinc-400 hover:text-white cursor-pointer transition-colors" />
-              <Instagram className="w-5 h-5 text-zinc-400 hover:text-white cursor-pointer transition-colors" />
             </div>
           </div>
 
@@ -80,15 +78,14 @@ const Footer = () => {
           <div className="space-y-4">
             <h4 className="text-zinc-500 uppercase text-xs tracking-widest">Direct</h4>
             <a href="mailto:hello@yourname.com" className="text-lg font-medium text-blue-500 hover:underline">
-              hello@yourname.com
+              info@adjeitech.com
             </a>
           </div>
         </div>
 
         {/* Bottom Section: Legal & Credits */}
         <div className="flex flex-col md:flex-row justify-between items-center pt-12 border-t border-zinc-900 text-zinc-600 text-xs gap-4">
-          <p>© 2026 ALL RIGHTS RESERVED — MR. TRAVIZ</p>
-          <p className="italic">DESIGNED & CODED WITH 💙 IN GHANA</p>
+          <p>© 2026 ALL RIGHTS RESERVED — MR. ADJEI</p>
         </div>
       </div>
     </footer>

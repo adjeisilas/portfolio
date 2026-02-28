@@ -1,5 +1,4 @@
 import { motion } from 'framer-motion';
-// Ensure your image is in src/assets/
 import Pic3 from '../assets/pic3.png'; 
 import { Pi } from 'lucide-react';
 
@@ -44,7 +43,7 @@ const About = () => {
               className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 ease-in-out"
             />
             <div className="absolute bottom-0 left-0 w-full p-6 bg-gradient-to-t from-black/90 via-black/40 to-transparent">
-              <p className="text-white font-bold tracking-wide">MR. TRAVIZ</p>
+              <p className="text-white font-bold tracking-wide">MR. ADJEI</p>
               <p className="text-zinc-400 text-xs uppercase tracking-widest">Software Engineer</p>
             </div>
           </motion.div>
